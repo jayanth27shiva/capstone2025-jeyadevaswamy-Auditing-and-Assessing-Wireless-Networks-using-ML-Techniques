@@ -1,28 +1,28 @@
 This documentation provides a full overview of the thesis project **"Auditing and Assessing the Wireless Network Attacks Using Machine Learning"**, including setup instructions and detailed module breakdowns.
-
-## Setup Instructions:
-# 1. Clone the Repository
+ 
+# Setup Instructions:
+## 1. Clone the Repository
 gh repo clone jayanth27shiva/capstone2025-jeyadevaswamy-Auditing-and-Assessing-Wireless-Networks-using-ML-Techniques
 
-# 2. Install Required Packages
+## 2. Install Required Packages
 Install all dependencies listed in the requirements file:
 pip install -r requirements.txt
 
-# 3. Launch the Notebook
+## 3. Launch the Notebook
 jupyter notebook IDS_TEMPORARY.ipynb
 Open the file and run cells step-by-step.
 
-## Project Workflow & Module Descriptions
+# Project Workflow & Module Descriptions
 1. Data Loading & Extraction
-Reads wireless traffic dataset (CSV or ZIP)
-Extracts files if zipped
-Loads training and test sets into Pandas DataFrames
+- Reads wireless traffic dataset (CSV or ZIP)
+- Extracts files if zipped
+- Loads training and test sets into Pandas DataFrames
 
 2. Preprocessing
-Encodes categorical variables (e.g., protocol_type, service)
-Normalizes numerical features using MinMaxScaler
-Drops irrelevant or non-numeric fields
-Prepares X_train, X_test, y_train, y_test for model input
+- Encodes categorical variables (e.g., protocol_type, service)
+- Normalizes numerical features using MinMaxScaler
+- Drops irrelevant or non-numeric fields
+- Prepares X_train, X_test, y_train, y_test for model input
 
 3. Feature Selection
 Techniques used:
