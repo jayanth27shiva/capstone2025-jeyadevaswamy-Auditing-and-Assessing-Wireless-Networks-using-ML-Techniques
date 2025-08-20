@@ -1,8 +1,8 @@
-This documentation provides a full overview of the thesis project **"Auditing and Assessing the Wireless Network Attacks Using Machine Learning"**, including setup instructions and detailed module breakdowns.
+This documentation provides a full overview of the thesis project **"DETECTION AND ASSESSMENT OF WIRELESS NETWORK ATTACKS USING MACHINE LEARNING TECHNIQUES"**, including setup instructions and detailed module breakdowns.
  
 # Setup Instructions:
 ## 1. Clone the Repository
-gh repo clone jayanth27shiva/capstone2025-jeyadevaswamy-Auditing-and-Assessing-Wireless-Networks-using-ML-Techniques
+gh repo clone jayanth27shiva/capstone2025-jeyadevaswamy-DETECTION-AND-ASSESSMENT-OF-WIRELESS-NETWORK-ATTACKS-USING-ML
 
 ## 2. Install Required Packages
 Install all dependencies listed in the requirements file:
